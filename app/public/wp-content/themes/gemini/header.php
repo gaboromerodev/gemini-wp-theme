@@ -18,5 +18,9 @@
 </head>
 <body <?php body_class(); ?>>
 
-<?php wp_body_open(); ?>
+<?php 
+if (function_exists('wp_body_open')) { // this is for versions lower than WP 5.2
+    wp_body_open();
+}; ?>
+
 <header>Header</header>
