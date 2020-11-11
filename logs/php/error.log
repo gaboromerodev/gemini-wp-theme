@@ -1,2 +1,10 @@
 [10-Nov-2020 20:27:11 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\functions.php on line 14
 [10-Nov-2020 20:47:44 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\functions.php on line 9
+[11-Nov-2020 02:28:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_template_part(), 0 passed in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\header.php on line 28 and at least 1 expected in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:167
+Stack trace:
+#0 C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\header.php(28): get_template_part()
+#1 C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php(730): require_once('C:\\Users\\Gabrie...')
+#2 C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php(676): load_template('C:\\Users\\Gabrie...', true, Array)
+#3 C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\index.php(7): get_header()
+#5 C:\Users\Gabriel\Local Sites\gab-local-wp in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php on line 167
