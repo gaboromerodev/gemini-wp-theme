@@ -10,6 +10,16 @@
 //  wp_die();
 // The above is for test our functions
 
+if (! defined( 'GEMINI_DIR_PATH') ) {
+    define( 'GEMINI_DIR_PATH', untrailingslashit( get_template_directory() ) );
+}
+
+echo '<pre>';
+print_r( GEMINI_DIR_PATH );
+wp_die();
+
+require_once GEMINI_DIR_PATH . '/inc/helpers/autoloader.php';
+
 function gemini_enqueue_scripts() {
     // wp_enqueue_style( 'stylesheet', get_template_directory_uri() . '/main.css', ['stylesheet'] ); //This declare a dependency meaning it will load after style.css
     //Register Styles
