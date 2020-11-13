@@ -14,11 +14,17 @@ if (! defined( 'GEMINI_DIR_PATH') ) {
     define( 'GEMINI_DIR_PATH', untrailingslashit( get_template_directory() ) );
 }
 
-echo '<pre>';
-print_r( GEMINI_DIR_PATH );
-wp_die();
+// echo '<pre>';
+// print_r( GEMINI_DIR_PATH ); Check if it print the DIR path
+// wp_die();
 
 require_once GEMINI_DIR_PATH . '/inc/helpers/autoloader.php';
+
+function gemini_get_theme_instance() {
+    \GEMINI_THEME\Inc\GEMINI_THEME::get_instance();
+}
+
+gemini_get_theme_instance();
 
 function gemini_enqueue_scripts() {
     // wp_enqueue_style( 'stylesheet', get_template_directory_uri() . '/main.css', ['stylesheet'] ); //This declare a dependency meaning it will load after style.css

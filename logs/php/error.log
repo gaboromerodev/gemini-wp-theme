@@ -37,3 +37,14 @@ Stack trace:
 [13-Nov-2020 00:05:46 UTC] PHP   3. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-load.php:37
 [13-Nov-2020 00:05:46 UTC] PHP   4. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-config.php:77
 [13-Nov-2020 00:05:46 UTC] PHP   5. include() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-settings.php:514
+[13-Nov-2020 00:17:58 UTC] PHP Fatal error:  Trait 'Gemini_Theme\Inc\Traits\Singleton' not found in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\inc\classes\class-gemini-theme.php on line 12
+[13-Nov-2020 00:17:58 UTC] PHP Stack trace:
+[13-Nov-2020 00:17:58 UTC] PHP   1. {main}() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:0
+[13-Nov-2020 00:17:58 UTC] PHP   2. require() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:17
+[13-Nov-2020 00:17:58 UTC] PHP   3. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-blog-header.php:13
+[13-Nov-2020 00:17:58 UTC] PHP   4. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-load.php:37
+[13-Nov-2020 00:17:58 UTC] PHP   5. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-config.php:77
+[13-Nov-2020 00:17:58 UTC] PHP   6. include() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-settings.php:514
+[13-Nov-2020 00:17:58 UTC] PHP   7. spl_autoload_call() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\functions.php:23
+[13-Nov-2020 00:17:58 UTC] PHP   8. GEMINI_THEME\Inc\Helpers\autoloader() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\functions.php:23
+[13-Nov-2020 00:17:58 UTC] PHP   9. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\inc\helpers\autoloader.php:82
