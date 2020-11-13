@@ -48,3 +48,130 @@ Stack trace:
 [13-Nov-2020 00:17:58 UTC] PHP   7. spl_autoload_call() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\functions.php:23
 [13-Nov-2020 00:17:58 UTC] PHP   8. GEMINI_THEME\Inc\Helpers\autoloader() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\functions.php:23
 [13-Nov-2020 00:17:58 UTC] PHP   9. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\inc\helpers\autoloader.php:82
+[13-Nov-2020 01:06:51 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'GEMINI_THEME\Inc\GEMINI_THEME' does not have a method 'register_styles' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php on line 287
+[13-Nov-2020 01:06:51 UTC] PHP Stack trace:
+[13-Nov-2020 01:06:51 UTC] PHP   1. {main}() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:0
+[13-Nov-2020 01:06:51 UTC] PHP   2. require() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:17
+[13-Nov-2020 01:06:51 UTC] PHP   3. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-blog-header.php:19
+[13-Nov-2020 01:06:51 UTC] PHP   4. include() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template-loader.php:106
+[13-Nov-2020 01:06:51 UTC] PHP   5. get_header() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\index.php:7
+[13-Nov-2020 01:06:51 UTC] PHP   6. locate_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:48
+[13-Nov-2020 01:06:51 UTC] PHP   7. load_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:676
+[13-Nov-2020 01:06:51 UTC] PHP   8. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:730
+[13-Nov-2020 01:06:51 UTC] PHP   9. wp_head() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\header.php:16
+[13-Nov-2020 01:06:51 UTC] PHP  10. do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:3009
+[13-Nov-2020 01:06:51 UTC] PHP  11. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
+[13-Nov-2020 01:06:51 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311
+[13-Nov-2020 01:06:51 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:287
+[13-Nov-2020 01:06:51 UTC] PHP  14. do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\script-loader.php:2001
+[13-Nov-2020 01:06:51 UTC] PHP  15. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
+[13-Nov-2020 01:06:51 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311
+[13-Nov-2020 01:06:51 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'GEMINI_THEME\Inc\GEMINI_THEME' does not have a method 'register_scripts' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php on line 287
+[13-Nov-2020 01:06:51 UTC] PHP Stack trace:
+[13-Nov-2020 01:06:51 UTC] PHP   1. {main}() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:0
+[13-Nov-2020 01:06:51 UTC] PHP   2. require() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:17
+[13-Nov-2020 01:06:51 UTC] PHP   3. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-blog-header.php:19
+[13-Nov-2020 01:06:51 UTC] PHP   4. include() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template-loader.php:106
+[13-Nov-2020 01:06:51 UTC] PHP   5. get_header() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\index.php:7
+[13-Nov-2020 01:06:51 UTC] PHP   6. locate_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:48
+[13-Nov-2020 01:06:51 UTC] PHP   7. load_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:676
+[13-Nov-2020 01:06:51 UTC] PHP   8. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:730
+[13-Nov-2020 01:06:51 UTC] PHP   9. wp_head() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\header.php:16
+[13-Nov-2020 01:06:51 UTC] PHP  10. do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:3009
+[13-Nov-2020 01:06:51 UTC] PHP  11. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
+[13-Nov-2020 01:06:51 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311
+[13-Nov-2020 01:06:51 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:287
+[13-Nov-2020 01:06:51 UTC] PHP  14. do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\script-loader.php:2001
+[13-Nov-2020 01:06:51 UTC] PHP  15. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
+[13-Nov-2020 01:06:51 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311
+[13-Nov-2020 01:07:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Gemini_Theme\Inc\GEMINI_THEME' does not have a method 'register_styles' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php on line 287
+[13-Nov-2020 01:07:28 UTC] PHP Stack trace:
+[13-Nov-2020 01:07:28 UTC] PHP   1. {main}() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:0
+[13-Nov-2020 01:07:28 UTC] PHP   2. require() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:17
+[13-Nov-2020 01:07:28 UTC] PHP   3. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-blog-header.php:19
+[13-Nov-2020 01:07:28 UTC] PHP   4. include() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template-loader.php:106
+[13-Nov-2020 01:07:28 UTC] PHP   5. get_header() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\index.php:7
+[13-Nov-2020 01:07:28 UTC] PHP   6. locate_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:48
+[13-Nov-2020 01:07:28 UTC] PHP   7. load_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:676
+[13-Nov-2020 01:07:28 UTC] PHP   8. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:730
+[13-Nov-2020 01:07:28 UTC] PHP   9. wp_head() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\header.php:16
+[13-Nov-2020 01:07:28 UTC] PHP  10. do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:3009
+[13-Nov-2020 01:07:28 UTC] PHP  11. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
+[13-Nov-2020 01:07:28 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311
+[13-Nov-2020 01:07:28 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:287
+[13-Nov-2020 01:07:28 UTC] PHP  14. do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\script-loader.php:2001
+[13-Nov-2020 01:07:29 UTC] PHP  15. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
+[13-Nov-2020 01:07:29 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311
+[13-Nov-2020 01:07:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Gemini_Theme\Inc\GEMINI_THEME' does not have a method 'register_scripts' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php on line 287
+[13-Nov-2020 01:07:29 UTC] PHP Stack trace:
+[13-Nov-2020 01:07:29 UTC] PHP   1. {main}() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:0
+[13-Nov-2020 01:07:29 UTC] PHP   2. require() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:17
+[13-Nov-2020 01:07:29 UTC] PHP   3. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-blog-header.php:19
+[13-Nov-2020 01:07:29 UTC] PHP   4. include() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template-loader.php:106
+[13-Nov-2020 01:07:29 UTC] PHP   5. get_header() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\index.php:7
+[13-Nov-2020 01:07:29 UTC] PHP   6. locate_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:48
+[13-Nov-2020 01:07:29 UTC] PHP   7. load_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:676
+[13-Nov-2020 01:07:29 UTC] PHP   8. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:730
+[13-Nov-2020 01:07:29 UTC] PHP   9. wp_head() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\header.php:16
+[13-Nov-2020 01:07:29 UTC] PHP  10. do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:3009
+[13-Nov-2020 01:07:29 UTC] PHP  11. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
+[13-Nov-2020 01:07:29 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311
+[13-Nov-2020 01:07:29 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:287
+[13-Nov-2020 01:07:29 UTC] PHP  14. do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\script-loader.php:2001
+[13-Nov-2020 01:07:29 UTC] PHP  15. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
+[13-Nov-2020 01:07:29 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311
+[13-Nov-2020 01:07:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Gemini_theme\Inc\GEMINI_THEME' does not have a method 'register_styles' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php on line 287
+[13-Nov-2020 01:07:38 UTC] PHP Stack trace:
+[13-Nov-2020 01:07:38 UTC] PHP   1. {main}() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:0
+[13-Nov-2020 01:07:38 UTC] PHP   2. require() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:17
+[13-Nov-2020 01:07:38 UTC] PHP   3. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-blog-header.php:19
+[13-Nov-2020 01:07:38 UTC] PHP   4. include() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template-loader.php:106
+[13-Nov-2020 01:07:38 UTC] PHP   5. get_header() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\index.php:7
+[13-Nov-2020 01:07:38 UTC] PHP   6. locate_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:48
+[13-Nov-2020 01:07:38 UTC] PHP   7. load_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:676
+[13-Nov-2020 01:07:38 UTC] PHP   8. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:730
+[13-Nov-2020 01:07:38 UTC] PHP   9. wp_head() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\header.php:16
+[13-Nov-2020 01:07:38 UTC] PHP  10. do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:3009
+[13-Nov-2020 01:07:38 UTC] PHP  11. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
+[13-Nov-2020 01:07:38 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311
+[13-Nov-2020 01:07:38 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:287
+[13-Nov-2020 01:07:38 UTC] PHP  14. do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\script-loader.php:2001
+[13-Nov-2020 01:07:38 UTC] PHP  15. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
+[13-Nov-2020 01:07:38 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311
+[13-Nov-2020 01:07:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Gemini_theme\Inc\GEMINI_THEME' does not have a method 'register_scripts' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php on line 287
+[13-Nov-2020 01:07:38 UTC] PHP Stack trace:
+[13-Nov-2020 01:07:38 UTC] PHP   1. {main}() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:0
+[13-Nov-2020 01:07:38 UTC] PHP   2. require() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:17
+[13-Nov-2020 01:07:38 UTC] PHP   3. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-blog-header.php:19
+[13-Nov-2020 01:07:38 UTC] PHP   4. include() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template-loader.php:106
+[13-Nov-2020 01:07:38 UTC] PHP   5. get_header() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\index.php:7
+[13-Nov-2020 01:07:38 UTC] PHP   6. locate_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:48
+[13-Nov-2020 01:07:38 UTC] PHP   7. load_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:676
+[13-Nov-2020 01:07:38 UTC] PHP   8. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:730
+[13-Nov-2020 01:07:38 UTC] PHP   9. wp_head() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\header.php:16
+[13-Nov-2020 01:07:38 UTC] PHP  10. do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:3009
+[13-Nov-2020 01:07:38 UTC] PHP  11. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
+[13-Nov-2020 01:07:38 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311
+[13-Nov-2020 01:07:38 UTC] PHP  13. wp_enqueue_scripts() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:287
+[13-Nov-2020 01:07:38 UTC] PHP  14. do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\script-loader.php:2001
+[13-Nov-2020 01:07:38 UTC] PHP  15. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
+[13-Nov-2020 01:07:38 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311
+[13-Nov-2020 01:33:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'GEMINI_THEME\Inc\GEMINI_THEME' does not have a method 'setup_theme' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php on line 287
+[13-Nov-2020 01:33:04 UTC] PHP Stack trace:
+[13-Nov-2020 01:33:04 UTC] PHP   1. {main}() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:0
+[13-Nov-2020 01:33:04 UTC] PHP   2. require() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:17
+[13-Nov-2020 01:33:04 UTC] PHP   3. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-blog-header.php:13
+[13-Nov-2020 01:33:04 UTC] PHP   4. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-load.php:37
+[13-Nov-2020 01:33:04 UTC] PHP   5. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-config.php:77
+[13-Nov-2020 01:33:04 UTC] PHP   6. do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-settings.php:524
+[13-Nov-2020 01:33:04 UTC] PHP   7. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
+[13-Nov-2020 01:33:04 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311
+[13-Nov-2020 01:33:39 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'GEMINI_THEME\Inc\GEMINI_THEME' does not have a method 'setup_theme' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php on line 287
+[13-Nov-2020 01:33:39 UTC] PHP Stack trace:
+[13-Nov-2020 01:33:39 UTC] PHP   1. {main}() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-admin\admin-ajax.php:0
+[13-Nov-2020 01:33:39 UTC] PHP   2. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-admin\admin-ajax.php:22
+[13-Nov-2020 01:33:39 UTC] PHP   3. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-load.php:37
+[13-Nov-2020 01:33:39 UTC] PHP   4. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-config.php:77
+[13-Nov-2020 01:33:39 UTC] PHP   5. do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-settings.php:524
+[13-Nov-2020 01:33:39 UTC] PHP   6. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
+[13-Nov-2020 01:33:39 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311

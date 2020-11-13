@@ -14,7 +14,6 @@
     <meta name="viewport", user-scalable=no, content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <?php wp_head(); ?>
-    <title>Gemini WordPress</title>
 </head>
 <body <?php body_class(); ?>>
 
