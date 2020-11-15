@@ -1,5 +1,6 @@
 <?php
 /**
+ * Enqueue theme assets
  * 
  * @package Gemini
  */

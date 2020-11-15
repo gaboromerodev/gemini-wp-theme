@@ -14,9 +14,11 @@
 
      protected function __construct() {
         //  wp_die( ' Hello' ); // Check if loads
-         //load class
+        
+        //Load class
 
          Assets::get_instance();
+         Menus::get_instance();
          $this->setup_hooks();
      }
 

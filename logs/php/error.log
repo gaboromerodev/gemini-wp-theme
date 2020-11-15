@@ -232,3 +232,5 @@ Stack trace:
 #4 C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-settings.php(524): do_action('after_setup_the...')
 #5 C:\Users\Gabriel\Local Sites\gab-loca in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php on line 403
 [15-Nov-2020 00:09:54 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\inc\classes\class-gemini-theme.php on line 71
+[15-Nov-2020 00:39:36 UTC] PHP Parse error:  syntax error, unexpected 'register_menus' (T_STRING), expecting variable (T_VARIABLE) in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\inc\classes\class-menus.php on line 29
+[15-Nov-2020 00:40:50 UTC] PHP Parse error:  syntax error, unexpected 'register_menus' (T_STRING), expecting variable (T_VARIABLE) in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\inc\classes\class-menus.php on line 29
