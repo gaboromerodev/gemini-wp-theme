@@ -234,3 +234,29 @@ Stack trace:
 [15-Nov-2020 00:09:54 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\inc\classes\class-gemini-theme.php on line 71
 [15-Nov-2020 00:39:36 UTC] PHP Parse error:  syntax error, unexpected 'register_menus' (T_STRING), expecting variable (T_VARIABLE) in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\inc\classes\class-menus.php on line 29
 [15-Nov-2020 00:40:50 UTC] PHP Parse error:  syntax error, unexpected 'register_menus' (T_STRING), expecting variable (T_VARIABLE) in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\inc\classes\class-menus.php on line 29
+[15-Nov-2020 02:27:11 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\inc\classes\class-menus.php on line 41
+[15-Nov-2020 02:35:34 UTC] PHP Warning:  Illegal offset type in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\inc\classes\class-menus.php on line 45
+[15-Nov-2020 02:35:34 UTC] PHP Stack trace:
+[15-Nov-2020 02:35:34 UTC] PHP   1. {main}() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:0
+[15-Nov-2020 02:35:34 UTC] PHP   2. require() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\index.php:17
+[15-Nov-2020 02:35:34 UTC] PHP   3. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-blog-header.php:19
+[15-Nov-2020 02:35:34 UTC] PHP   4. include() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template-loader.php:106
+[15-Nov-2020 02:35:34 UTC] PHP   5. get_header() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\index.php:7
+[15-Nov-2020 02:35:34 UTC] PHP   6. locate_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:48
+[15-Nov-2020 02:35:34 UTC] PHP   7. load_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:676
+[15-Nov-2020 02:35:34 UTC] PHP   8. require_once() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:730
+[15-Nov-2020 02:35:34 UTC] PHP   9. get_template_part() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\header.php:27
+[15-Nov-2020 02:35:34 UTC] PHP  10. locate_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php:204
+[15-Nov-2020 02:35:34 UTC] PHP  11. load_template() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:676
+[15-Nov-2020 02:35:34 UTC] PHP  12. require() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php:732
+[15-Nov-2020 02:35:34 UTC] PHP  13. GEMINI_THEME\Inc\Menus->get_menu_id() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\template-parts\header\nav.php:9
+[15-Nov-2020 02:37:10 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\inc\classes\class-menus.php on line 52
+[15-Nov-2020 02:38:04 UTC] PHP Fatal error:  Uncaught Error: Object of class GEMINI_THEME\Inc\Menus could not be converted to string in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\template-parts\header\nav.php:9
+Stack trace:
+#0 C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php(732): require()
+#1 C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php(676): load_template('C:\\Users\\Gabrie...', false, Array)
+#2 C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\header.php(27): get_template_part('template-parts/...')
+#4 C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php(730): require_once('C:\\Users\\Gabrie...')
+#5 C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\template.php(676): load_template('C:\\Users\\Gabrie...', true, Array)
+#6 in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\template-parts\header\nav.php on line 9

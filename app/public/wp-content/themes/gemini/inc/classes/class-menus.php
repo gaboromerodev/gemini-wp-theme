@@ -34,4 +34,21 @@
         ]);
      }
 
+     public function get_menu_id( $location ) {
+         // Get all location
+         $locations = get_nav_menu_locations();
+        //  echo '<pre>';
+        //  print_r( $locations );
+        //  wp_die();
+
+        // Get object id by location
+        $menu_id = $locations[$location];
+
+        // echo '<pre>';
+        // print_r( $menu_id );
+        // wp_die();
+
+        return ! empty( $menu_id ) ? $menu_id : '';
+     }
+
  }
