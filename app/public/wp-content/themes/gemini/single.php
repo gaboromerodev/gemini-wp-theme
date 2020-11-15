@@ -1,6 +1,6 @@
 <?php
 /**
- * Main template file.
+ * Single Page Template.
  * 
  * @package Gemini
  */
@@ -9,7 +9,7 @@ get_header();
  ?>
 
     <div class="content">
-        <?php esc_html_e( 'Content Blog', 'aquila' );?>
+        <?php esc_html_e( 'Single Post', 'aquila' );?>
     </div>
     
 <?php 
