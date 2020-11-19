@@ -523,3 +523,4 @@ Stack trace:
 [19-Nov-2020 00:42:47 UTC] PHP  15. WP_Hook->do_action() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\plugin.php:478
 [19-Nov-2020 00:42:47 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:311
 [19-Nov-2020 00:42:47 UTC] PHP  17. GEMINI_THEME\Inc\Assets->register_scripts() C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-includes\class-wp-hook.php:287
+[19-Nov-2020 02:02:03 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\Gabriel\Local Sites\gab-local-wp-test\app\public\wp-content\themes\gemini\template-parts\components\Blog\entry-header.php on line 14

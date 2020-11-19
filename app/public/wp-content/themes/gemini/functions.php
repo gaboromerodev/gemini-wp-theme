@@ -23,6 +23,7 @@ if (! defined( 'GEMINI_DIR_URI' )) {
 }
 
 require_once GEMINI_DIR_PATH . '/inc/helpers/autoloader.php';
+require_once GEMINI_DIR_PATH . '/inc/helpers/template-tags.php';
 
 function gemini_get_theme_instance() {
     \GEMINI_THEME\Inc\GEMINI_THEME::get_instance();
