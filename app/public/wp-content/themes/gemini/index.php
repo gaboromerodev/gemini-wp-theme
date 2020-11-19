@@ -33,18 +33,17 @@ get_header();
 						$index = 0;
 						$no_of_columns = 3;
 
+						//Start the loop
+
 						while ( have_posts() ) : the_post();
 
 							if ( 0 === $index % $no_of_columns ) {
 								?>
-								<div class="col-4">
+								<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
 								<?php
                             }
-                            
-                            ?>
-                            <h3><?php the_title();?></h3>
-                            <div><?php the_content();?></div>
-                            <?php
+						 
+							get_template_part( 'template-parts/content' );
 
 							
 							$index ++;
@@ -66,8 +65,6 @@ get_header();
 				get_template_part( 'template-parts/content-none' );
 
 			endif;
-
-		
 			?>
 		</main>
 	</div>
